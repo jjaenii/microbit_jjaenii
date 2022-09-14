@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="OGFd;Yt=(?}-);;nJ?^P">만보기</variable></variables><block type="device_button_event" id=":[GLd+vZ$]D_/xh/;y.l" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_set" id="qb5xODysq,MM4T~5i]d("><field name="VAR" id="OGFd;Yt=(?}-);;nJ?^P">만보기</field><value name="VALUE"><shadow type="math_number" id="2=,8x5^qpA{9PL8iPEBk"><field name="NUM">0</field></shadow></value></block></statement></block><block type="device_button_event" id="j=lKYlBvIPK$_|$=%g}W" x="490" y="82"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="C3.X[0jW*w:aTourBdhg"><field name="LEDS">`
+        . # # # . 
+        . . # . . 
+        . . # . . 
+        # . # . . 
+        . # . . .
+        `</field><next><block type="device_pause" id="ZgoiF8QTHl}OktBJRhX)"><value name="pause"><shadow type="timePicker" id="5^|AcJnRV/dwoR^V)H)R"><field name="ms">2000</field></shadow></value><next><block type="device_show_leds" id=".T88P6:8Z?j$lUDrF^gU"><field name="LEDS">`
+        # # . # # 
+        . # . # . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_pause" id="xkY(=j%uo;)04w#KyeC@"><value name="pause"><shadow type="timePicker" id="1%B;)JbF#+SE8uNh}cLb"><field name="ms">2000</field></shadow></value><next><block type="playMelody" id="T_PF!CT).(zV.zJg,Qor"><value name="melody"><shadow type="melody_editor" id="9m2!!Bb][u8sst!ZIy_?"><field name="melody">"C5 B A G F E D C "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id=".E+N:Lr.Uc.t!zH%B+,^"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">100</field></shadow></value></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="NnJqKc65yoeJ;KI`NJ5b" x="3" y="176"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_number" id="1y*c4gU,-rs9Ah^^2/cJ"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="math_arithmetic" id="gE)Rz!WwSm4d}*7,i#E+"><field name="OP">MULTIPLY</field><value name="A"><shadow type="math_number" id="~|)l90pr!I_oP`_$OnN@"><field name="NUM">0.6</field></shadow></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="|TYoO7FbW8+gioJb$?zA"><field name="VAR" id="OGFd;Yt=(?}-);;nJ?^P">만보기</field></block></value></block></value></block></statement></block></xml>
